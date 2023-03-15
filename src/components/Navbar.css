@@ -37,3 +37,51 @@
 .nav--links > li a img {
     margin-right: 12px;
 }
+
+.customer-service-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 250px;
+    width: 240px;
+    background-image: url("../assets/images/customer_service_block_bg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto 0 50px 0;
+}
+
+.customer-service-block-btn-1 {
+    padding-top: 17px;
+    filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.25));
+}
+
+.customer-service-block a {
+    text-decoration: none;
+    display: block;
+    width: fit-content;
+}
+
+.customer-service-block--heading {
+    color: #016170;
+    margin: 0;
+    margin: 12px 0 0 0;
+}
+
+.customer-service-block--description {
+    color: #068181;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.customer-service-block-btn-2 {
+    background-color: #D9F4FF;
+    color: #016170;
+    font-weight: 700;
+    font-size: 12px;
+    padding: 10px 15px;
+    max-width: 140px;
+    border-radius: 9px;
+    margin: 0 auto;
+    box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.1);
+}

@@ -4,6 +4,7 @@ import home_icon from '../assets/icons/fi-br-home.svg'
 import cart_icon from '../assets/icons/fi-br-shopping-cart.svg'
 import user_icon from '../assets/icons/fi-bs-user.svg'
 import about_icon from '../assets/icons/fi-br-comment.svg'
+import plus_icon from '../assets/icons/customer_service_block_btn.svg'
 
 
 function Navbar() {
@@ -20,6 +21,13 @@ function Navbar() {
                     <li><a href="https://www.youtube.com/"><img src={about_icon} alt="" height='26px'/>About Us</a></li>
                 </ul>
             </div>
+            <div className="customer-service-block">
+                <a href="https://www.youtube.com/"><img src={plus_icon} alt="" height='46px' className="customer-service-block-btn-1" /></a>
+                <h4 className="customer-service-block--heading">Need Help</h4>
+                <p className="customer-service-block--description">About Account Management <br/> Ordering & Payment refund and <br/> FAQ</p>
+                <a href="https://www.youtube.com/"><div className="customer-service-block-btn-2">Customer Service</div></a>
+            </div>
+            
         </nav>
     )
 }
