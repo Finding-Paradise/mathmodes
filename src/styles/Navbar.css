@@ -32,6 +32,11 @@
     color: var(--secondary-color);
     font-weight: 500;
     font-size: 20px;
+    transition: all .25s ease-in;
+}
+
+.nav--links > li a:hover {
+    color: #016170;
 }
 
 .nav--links > li a img {

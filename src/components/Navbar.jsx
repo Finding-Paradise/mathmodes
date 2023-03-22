@@ -1,10 +1,11 @@
 import React from 'react'
-import '../components/Navbar.css'
+import '../styles/Navbar.css'
 import home_icon from '../assets/icons/fi-br-home.svg'
 import cart_icon from '../assets/icons/fi-br-shopping-cart.svg'
 import user_icon from '../assets/icons/fi-bs-user.svg'
 import about_icon from '../assets/icons/fi-br-comment.svg'
 import plus_icon from '../assets/icons/customer_service_block_btn.svg'
+import { Link } from 'react-router-dom'
 
 
 function Navbar() {
@@ -15,19 +16,19 @@ function Navbar() {
             </div>
             <div className="nav--block">
                 <ul className="nav--links">
-                    <li><a href="https://www.youtube.com/"><img src={home_icon} alt="" height='26px'/>Home</a></li>
-                    <li><a href="https://www.youtube.com/"><img src={cart_icon} alt="" height='26px'/>Cart</a></li>
-                    <li><a href="https://www.youtube.com/"><img src={user_icon} alt="" height='26px'/>Profile</a></li>
-                    <li><a href="https://www.youtube.com/"><img src={about_icon} alt="" height='26px'/>About Us</a></li>
+                    <li><Link to={'/'}><img src={home_icon} alt="" height='26px' />Home</Link></li>
+                    <li><Link to={'/cart-page'}><img src={cart_icon} alt="" height='26px' />Cart</Link></li>
+                    <li><Link to={'/'}><img src={user_icon} alt="" height='26px' />Profile</Link></li>
+                    <li><Link to={'/'}><img src={about_icon} alt="" height='26px' />About Us</Link></li>
                 </ul>
             </div>
             <div className="customer-service-block">
-                <a href="https://www.youtube.com/"><img src={plus_icon} alt="" height='46px' className="customer-service-block-btn-1" /></a>
+                <Link to={'/'}><img src={plus_icon} alt="" height='46px' className="customer-service-block-btn-1" /></Link>
                 <h4 className="customer-service-block--heading">Need Help</h4>
-                <p className="customer-service-block--description">About Account Management <br/> Ordering & Payment refund and <br/> FAQ</p>
-                <a href="https://www.youtube.com/"><div className="customer-service-block-btn-2">Customer Service</div></a>
+                <p className="customer-service-block--description">About Account Management <br /> Ordering & Payment refund and <br /> FAQ</p>
+                <Link to={'/'}><div className="customer-service-block-btn-2">Customer Service</div></Link>
             </div>
-            
+
         </nav>
     )
 }

@@ -1,0 +1,9 @@
+.main {
+    background-color: #fafafa;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    height: calc(100% - 111px);
+}

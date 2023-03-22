@@ -1,0 +1,8 @@
+.product-slider-wrapper {
+    width: 100%;
+    display: flex;
+    gap: 40px;
+    flex-wrap: nowrap;
+    margin-top: 60px;
+    overflow-x: auto;
+}
