@@ -1,3 +1,5 @@
 .aside {
-    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }

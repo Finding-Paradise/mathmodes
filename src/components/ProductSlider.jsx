@@ -12,7 +12,6 @@ function ProductSlider() {
   return (
     <div className="product-slider-wrapper">
         {cardElements}
-        {cardElements}
     </div>
   )
 }

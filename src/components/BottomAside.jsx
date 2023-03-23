@@ -19,6 +19,7 @@ function BottomAside() {
             <img src={ariet} alt="" />
             <img src={osel} alt="" />
           </div>
+          <div className="bottom-aside--divider"></div>
           <div className="bottom-aside--block-right">
             <h4>Newest Sellers</h4>
             <p>4,600+ Orders & reviews</p>

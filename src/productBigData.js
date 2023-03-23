@@ -34,6 +34,20 @@ const dataForBig = [
         price: '169.98',
         rating: '4.7'
     },
+    {
+        id: 6,
+        imageURL: 'six.png',
+        title: 'Math Side',
+        price: '70.65',
+        rating: '4.5'
+    },
+    {
+        id: 7,
+        imageURL: 'seventh.png',
+        title: 'Math Side 2',
+        price: '70.65',
+        rating: '4.6'
+    }
 ]
 
 export default dataForBig

@@ -1,0 +1,41 @@
+.top-brands-banner {
+    width: 366px;
+    height: max-content;
+    background-image: url('../assets/images/from_top_brands_banner.svg');
+    padding: 15px 25px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+.top-brands-banner--title {
+    margin: 0;
+    color: #016170;
+    letter-spacing: .07rem;
+    font-size: 26px;
+}
+
+.top-brands-banner a {
+    all: unset;
+    cursor: pointer;
+    color: #016170;
+    font-weight: 500;
+    display: flex;
+    margin-top: 135px;
+    margin-bottom: 20px;
+}
+
+.top-brands-banner a img {
+    margin-left: 10px;
+}
+
+.top-brands-banner--img, .top-brands-banner--img-2 {
+    position: absolute;
+    bottom: 0px;
+    right: -13px;
+}
+
+.top-brands-banner--img {
+    right: 90px;
+    bottom: -15px;
+}

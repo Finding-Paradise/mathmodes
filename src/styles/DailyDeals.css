@@ -1,0 +1,25 @@
+.daily-deals-wrapper {
+    width: 90%;
+    margin-top: 50px;
+}
+
+.daily-deals-wrapper--title-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.daily-deals-wrapper--title {
+    font-weight: 600;
+    font-size: 24px;
+    color: #016170;
+    margin: 0;
+    display: inline;
+}
+
+.daily-deals-wrapper--link {
+    all: unset;
+    cursor: pointer;
+    color: var(--secondary-color);
+    font-weight: 500;
+}
