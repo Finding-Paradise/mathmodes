@@ -1,0 +1,11 @@
+.cart-page {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    font-family: var(--main-font);
+    padding: 69px 51px;
+}
+
+.cart-page--left {
+    padding-right: 76px;
+}

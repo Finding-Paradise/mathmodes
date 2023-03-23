@@ -1,0 +1,139 @@
+:root {
+    --primary-text-color: #FEFCFC;
+}
+
+.payment-wrapper {
+    background-color: #565ABB;
+    border-radius: 28px;
+    padding: 26px;
+    min-width: 400px;
+    max-width: 480px;
+}
+
+.payment--heading-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.payment--heading {
+    color: var(--primary-text-color);
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.payment--heading-wrapper img {
+    height: 100%;
+}
+
+.payment--card-type-heading {
+    font-weight: 500;
+    color: var(--primary-text-color);
+}
+
+.card-option-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.see-all {
+    width: 107px;
+    height: 77px;
+    background-color: #D9D9D933;
+    border-radius: 7px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.see-all-span {
+    color: var(--primary-text-color);
+    font-weight: 600;
+    letter-spacing: .08rem;
+    font-size: 19px;
+}
+
+.payment--card-type-wrapper img {
+    margin-right: 26px;
+    cursor: pointer;
+}
+
+#cardHolderName, #cardNumber {
+    width: 100%;
+}
+
+.exp-cvv-wrapper {
+    display: flex;
+}
+
+#expirationDate, #cvv {
+    width: 70%;
+}
+
+.card-data-form label {
+    color: var(--primary-text-color);
+    display: inline-block;
+    margin: 20px 0 7px 0;
+}
+
+.card-data-form input[type=text] {
+    all: unset;
+    background-color: #6268C6;
+    color: var(--primary-text-color);
+    border-radius: 8px;
+    height: 40px;
+    text-indent: 20px;
+}
+
+.divider {
+    width: 100%;
+    height: 2px;
+    background-color: #5F65C3;
+    border-radius: 2px;
+    margin: 26px 0;
+}
+
+.payment--total-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.payment--total-wrapper h4 {
+    margin: 0;
+    font-weight: 500;
+    color: var(--primary-text-color);
+}
+
+.payment--total-wrapper h4:last-child {
+    font-size: 22px;
+}
+
+#checkout {
+    all: unset;
+    display: flex;
+    width: 100%;
+    background-color: #4DE1C1;
+    border-radius: 17px;
+    /* justify-content: space-between; */
+    align-items: center;
+    color: var(--primary-text-color);
+    cursor: pointer;
+    margin-top: 30px;
+}
+#checkout h4 {
+    margin-left: 30px;
+    font-weight: 500;
+}
+
+#checkout h3 {
+    margin-left: auto;
+    font-weight: 400;
+}
+
+#checkout img {
+    margin-right: 30px;
+    margin-left: 10px;
+}
+

@@ -1,0 +1,14 @@
+.cart-page-nav {
+    border-bottom: 2px solid #D0CFCF;
+}
+
+.cart-page-nav--heading {
+    color: #1E1E1E;
+    margin-left: 10px;
+}
+
+.cart-page-nav--link {
+    all: unset;
+    cursor: pointer;
+    display: flex;
+}

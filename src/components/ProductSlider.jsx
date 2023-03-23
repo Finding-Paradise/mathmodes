@@ -6,7 +6,7 @@ import ProductCard from './ProductCard'
 function ProductSlider() {
 
     let cardElements = dataForBig.map(item => {
-        return <ProductCard key={item.id} cardImageURL={item.imageURL} cardTitle={item.title} cardPrice={item.price} cardRating={item.rating}/>
+        return <ProductCard key={item.id} id={item.id}cardImageURL={item.imageURL} cardTitle={item.title} cardPrice={item.price} cardRating={item.rating}/>
     })
 
   return (

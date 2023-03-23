@@ -5,6 +5,7 @@
     border-radius: 15px;
     box-shadow: 0px 10px 33px rgba(0, 0, 0, 0.1);
     background-color: #fff;
+    min-width: 131px;
 }
 
 .card--img {
@@ -39,4 +40,10 @@
     position: absolute;
     cursor: pointer;
     right: 13px;
+}
+
+.card--item-amount {
+    display: inline-block;
+    margin-left: 40px;
+    color: #5c5c5c;
 }
